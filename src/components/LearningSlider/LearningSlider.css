@@ -1,0 +1,94 @@
+.learning-container {
+  border: 1px solid #d4d4d4;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+}
+
+h3 {
+  margin: 0;
+}
+
+.mySwiper {
+  margin-top: 20px;
+}
+
+.slide-container {
+  background: #f5f5f7;
+  padding: 4px;
+  border-radius: 20px;
+  min-width: 290px;
+  min-height: 120px;
+  display: flex;
+  position: relative;
+}
+
+.thumbnail {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 20px;
+  margin: 8px;
+}
+
+.description-block {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+h4 {
+  margin: 0;
+}
+
+.time {
+  position: absolute;
+  left: 55px;
+  top: 70px;
+  color: #fff;
+  background: #000;
+  opacity: 0.65;
+  padding: 2px 6px;
+  border-radius: 10px;
+}
+
+.slider-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .custom-nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .custom-prev-button,
+  .custom-next-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+padding: 0 2px 4px 0;
+  }
+  
+  .custom-prev-button:hover,
+  .custom-next-button:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.1);
+  }
+
+  .slides-navigation {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
